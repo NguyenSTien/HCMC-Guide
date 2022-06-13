@@ -81,3 +81,33 @@ header{
 .flower{
     height: 150px;
 }
+/*------Task2-------- */
+header{
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.texthead{
+    font-family: 'Just Another Hand', cursive;
+    font-size: 130px;
+    color: red;
+    justify-content: center;
+}
+.group1{
+    position: absolute;
+    height: 150px;
+    top: 155px;
+    right: 10px;
+}
+.react{
+    position: absolute;
+    width: 500px;
+    top: 60px;
+    left: -30px;
+}.content{
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    top: -180px;
+}
