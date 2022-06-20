@@ -20,7 +20,9 @@ h1{
     font-family: 'Montserrat', sans-serif;
     margin: 0 auto;
     height: 50px;
-    font-size: 20px;
+    font-size: 25px;
+    color: #473e41;
+    line-height: 30px;
 }
 header{
     margin: 0 auto;
@@ -31,9 +33,9 @@ header{
     margin: 0 auto;
     background-color: orange;
     height: 1px;
-    width: 50px;
+    width: 70px;
     border-radius: 1px;
-    margin-top: 10px;
+    margin-top: 30px;
 }
 .HCM{
     margin: 0 auto;
@@ -47,9 +49,9 @@ header{
     font-size: 30px;
     margin-top: 250px;
 }
-.HCM{
+/* .HCM{
     height: 400px;
-}
+} */
 .HCM .rong{ 
     position: relative;
 }
@@ -70,13 +72,17 @@ header{
     top: -490px;
     left: 20px;
 }
+.flower{
+    margin-top: -90px;
+}
 .flower1{
     margin: 0 auto;
-    width: 400px;
+    width: 600px;
 }
 .footer1{
-    width: 50px ;
+    width: 100px ;
     margin: 0 auto;
+    margin-top: 60px;
 }
 .flower{
     height: 150px;
@@ -104,10 +110,21 @@ header{
 .react{
     position: absolute;
     width: 500px;
-    top: 60px;
+    top: 35px;
     left: -30px;
 }.content{
     font-family: 'Montserrat', sans-serif;
     text-align: left;
     top: -180px;
+    color: #473e41;
+}
+.footer2{
+    position: relative;
+}
+.logo-w{
+    position: absolute;
+    right: 50px;
+    bottom: 10px;
+    width: 75px;
+
 }
