@@ -1,4 +1,4 @@
-.container{
+.container {
     width: 100%;
     height: 100%;
     max-width: 1200px;
@@ -11,12 +11,13 @@ body {
     box-sizing: border-box;
 }
 
-img{
- width: 100%;
- height: 100%;
- object-fit: cover;
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
-h1{
+
+h1 {
     font-family: 'Montserrat', sans-serif;
     margin: 0 auto;
     height: 50px;
@@ -24,12 +25,13 @@ h1{
     color: #473e41;
     line-height: 30px;
 }
-header{
+
+header {
     margin: 0 auto;
     text-align: center;
 }
 
-.thanh-ngang1{
+.thanh-ngang1 {
     margin: 0 auto;
     background-color: orange;
     height: 1px;
@@ -37,91 +39,109 @@ header{
     border-radius: 1px;
     margin-top: 30px;
 }
-.HCM{
+
+.HCM {
     margin: 0 auto;
     width: 500px;
     height: 500px;
     margin-top: -30px;
 }
-.content{
+
+.content {
     position: relative;
     text-align: center;
     font-size: 30px;
     margin-top: 250px;
 }
+
 /* .HCM{
     height: 400px;
 } */
-.HCM .rong{ 
+.HCM .rong {
     position: relative;
 }
-.footer{
+
+.footer {
     margin: 0 auto;
     width: 70px;
     height: 70px;
 }
-.text{
+
+.text {
     font-size: 150px;
     text-align: center;
     font-family: 'Just Another Hand', cursive;
     color: #f0c807;
     line-height: 4cm;
 }
-.rong{
+
+.rong {
     position: absolute;
     top: -490px;
     left: 20px;
 }
-.flower{
+
+.flower {
     margin-top: -90px;
 }
-.flower1{
+
+.flower1 {
     margin: 0 auto;
     width: 600px;
 }
-.footer1{
-    width: 100px ;
+
+.footer1 {
+    width: 100px;
     margin: 0 auto;
     margin-top: 60px;
 }
-.flower{
+
+.flower {
     height: 150px;
 }
+
 /*------Task2-------- */
-header{
+header {
     display: flex;
     margin: 0 auto;
     justify-content: space-between;
     align-items: center;
     position: relative;
 }
-.texthead{
+
+.texthead {
     font-family: 'Just Another Hand', cursive;
     font-size: 130px;
     color: red;
     justify-content: center;
 }
-.group1{
+
+.group1 {
     position: absolute;
     height: 150px;
     top: 155px;
     right: 10px;
 }
-.react{
+
+.react {
     position: absolute;
     width: 500px;
     top: 35px;
     left: -30px;
-}.content{
+}
+
+.content {
     font-family: 'Montserrat', sans-serif;
     text-align: left;
     top: -180px;
     color: #473e41;
 }
-.footer2{
+
+.footer2 {
     position: relative;
 }
-.logo-w{
+
+.logo-w {
     position: absolute;
     right: 50px;
     bottom: 10px;
