@@ -1,0 +1,174 @@
+.container {
+    width: 100%;
+    height: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@font-face {
+    font-family: "just-hand";
+    src: url("/Fonts/JustAnotherHand-Regular.ttf") format("truetype"),
+        url("/Fonts/AnyConv.com__JustAnotherHand-Regular.woff") format("woff"),
+        url("/Fonts/AnyConv.com__JustAnotherHand-Regular.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "mont";
+    src: url("/Fonts/Montserrat-VariableFont_wght.ttf") format("truetype"),
+        url("/Fonts/AnyConv.com__Montserrat-VariableFont_wght.woff") format("woff"),
+        url("/Fonts/AnyConv.com__Montserrat-VariableFont_wght.woff2") format("woff2");
+    font-weight: bold;
+    font-style: normal;
+}
+
+.texthead {
+    font-family: 'mont';
+    text-align: center;
+    margin-top: 100px;
+    /* font-size: 24px; */
+    font-weight: bold;
+}
+
+.line {
+    width: 60px;
+    height: 2px;
+    background-color: orange;
+    margin: 0 auto;
+    border-radius: 1px;
+    margin-top: -10px;
+}
+
+.maincontent {
+    position: relative;
+}
+
+.content {
+    text-align: center;
+}
+
+.textcontent {
+    font-family: 'just-hand';
+    font-size: 137px;
+    color: yellow;
+    line-height: 120px;
+}
+
+.dragon {
+    position: absolute;
+    left: 385px;
+    top: -215px;
+}
+
+.imgdragon {
+    width: 400px;
+    margin-top: 150px;
+}
+
+.lotus {
+    text-align: center;
+}
+
+.imglotus {
+    width: 550px;
+}
+
+.logo-b {
+    text-align: center;
+    padding-top: 35px;
+}
+
+.imglogo-b {
+    width: 50px;
+}
+
+@meida screen and (max-width: 1200px) {
+    body {
+        background-color: yellow;
+    }
+}
+
+
+@media screen and (max-width: 900px) {
+    body {
+        background-color: lightcoral;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    body {
+        background-color: lightblue;
+    }
+
+    .texthead {
+        font-size: 99%;
+    }
+
+    .imglotus {
+        width: 100%;
+    }
+}
+
+
+/*------Task2-------- */
+/* header {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.texthead {
+    font-family: 'Just Another Hand', cursive;
+    font-size: 130px;
+    color: red;
+    justify-content: center;
+}
+
+.group1 {
+    position: absolute;
+    height: 150px;
+    top: 155px;
+    right: 10px;
+}
+
+.react {
+    position: absolute;
+    width: 500px;
+    top: 35px;
+    left: -30px;
+}
+
+.content {
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    top: -180px;
+    color: #473e41;
+}
+
+.footer2 {
+    position: relative;
+}
+
+.logo-w {
+    position: absolute;
+    right: 50px;
+    bottom: 10px;
+    width: 75px;
+
+} */
