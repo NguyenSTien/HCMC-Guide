@@ -60,24 +60,19 @@ img {
 .content {
     text-align: center;
 }
-
+.imgdragon{
+    padding-top: 40px;
+    width: 260px;
+}
 .textcontent {
     font-family: 'just-hand';
-    font-size: 137px;
+    font-size: 90px;
     color: yellow;
-    line-height: 120px;
+    line-height: 78px;
+    margin-top: -140px; 
+    margin-right: 25px;
 }
 
-.dragon {
-    position: absolute;
-    left: 385px;
-    top: -215px;
-}
-
-.imgdragon {
-    width: 400px;
-    margin-top: 150px;
-}
 
 .lotus {
     text-align: center;
@@ -104,71 +99,40 @@ img {
 
 
 @media screen and (max-width: 900px) {
-    body {
-        background-color: lightcoral;
+    .texthead {
+        font-size: 75%;
+    }
+    .imglotus {
+        width: 65%;
+    }
+    .imglogo-b{
+        width: 10%;
     }
 }
 
 @media screen and (max-width: 375px) {
-    body {
-        background-color: lightblue;
-    }
 
     .texthead {
-        font-size: 99%;
+        font-size: 50%;
     }
+    .textcontent{
+        font-size:23vw ;
+        line-height: 49px;
+        margin-top: -85px;
+        margin-left: 5px;
+    }
+    .imgdragon{
+        width: 70%;
+    }
+    .line{
+        width: 20px;
 
+    }
     .imglotus {
         width: 100%;
     }
+    .imglogo-b{
+        width: 10%;
+    }
+
 }
-
-
-/*------Task2-------- */
-/* header {
-    display: flex;
-    margin: 0 auto;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
-}
-
-.texthead {
-    font-family: 'Just Another Hand', cursive;
-    font-size: 130px;
-    color: red;
-    justify-content: center;
-}
-
-.group1 {
-    position: absolute;
-    height: 150px;
-    top: 155px;
-    right: 10px;
-}
-
-.react {
-    position: absolute;
-    width: 500px;
-    top: 35px;
-    left: -30px;
-}
-
-.content {
-    font-family: 'Montserrat', sans-serif;
-    text-align: left;
-    top: -180px;
-    color: #473e41;
-}
-
-.footer2 {
-    position: relative;
-}
-
-.logo-w {
-    position: absolute;
-    right: 50px;
-    bottom: 10px;
-    width: 75px;
-
-} */
