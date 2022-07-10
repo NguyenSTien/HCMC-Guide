@@ -16,17 +16,17 @@ img{
 }
 @font-face {
     font-family: "just-hand";
-    src: url("/Fonts/JustAnotherHand-Regular.ttf") format("truetype"),
-        url("/Fonts/AnyConv.com__JustAnotherHand-Regular.woff") format("woff"),
-        url("/Fonts/AnyConv.com__JustAnotherHand-Regular.woff2") format("woff2");
+    src: url("./Fonts/JustAnotherHand-Regular.ttf") format("truetype"),
+        url("./Fonts/AnyConv.com__JustAnotherHand-Regular.woff") format("woff"),
+        url("./Fonts/AnyConv.com__JustAnotherHand-Regular.woff2") format("woff2");
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: "mont";
-    src: url("/Fonts/Montserrat-VariableFont_wght.ttf") format("truetype"),
-        url("/Fonts/AnyConv.com__Montserrat-VariableFont_wght.woff") format("woff"),
-        url("/Fonts/AnyConv.com__Montserrat-VariableFont_wght.woff2") format("woff2");
+    src: url("./Fonts/Montserrat-VariableFont_wght.ttf") format("truetype"),
+        url("./Fonts/AnyConv.com__Montserrat-VariableFont_wght.woff") format("woff"),
+        url("./Fonts/AnyConv.com__Montserrat-VariableFont_wght.woff2") format("woff2");
     font-weight: normal;
     font-style: normal;
 }
