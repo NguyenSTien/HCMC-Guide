@@ -1,38 +1,76 @@
-.container{
-    position: relative;
+.container {
     width: 100%;
     height: 100%;
-    max-width: 700px;
-    min-width: 300px;
+    max-width: 1000px;
     margin: 0 auto;
 }
-img{
+
+img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-@media(min-width: 780px) and (max-width: 1023px) {}
 
-body{
+body {
     background-color: #62c1c1;
     margin: 0;
 }
-.header{
+
+@font-face {
+    font-family: "justHand";
+    src: url("./Fonts/JustAnotherHand-Regular.ttf") format("truetype"),
+        url("./Fonts/AnyConv.com__JustAnotherHand-Regular.woff") format("woff"),
+        url("./Fonts/AnyConv.com__JustAnotherHand-Regular.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "mont";
+    src: url("./Fonts/Montserrat-VariableFont_wght.ttf") format("truetype"),
+        url("./Fonts/AnyConv.com__Montserrat-VariableFont_wght.woff") format("woff"),
+        url("./Fonts/AnyConv.com__Montserrat-VariableFont_wght.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "montBold";
+    src: url("./Fonts/Montserrat-VariableFont_wght.ttf") format("truetype"),
+        url("./Fonts/AnyConv.com__Montserrat-VariableFont_wght.woff") format("woff"),
+        url("./Fonts/AnyConv.com__Montserrat-VariableFont_wght.woff2") format("woff2");
+    font-weight: bold;
+    font-style: normal;
+}
+
+.header {
     display: flex;
     align-items: center;
 }
-.head{
+
+.head {
     position: relative;
 }
-.languageHead{
+
+.languageHead {
     position: relative;
 }
-.textHead{
+
+.wave {
+    position: absolute;
+    width: 245px;
+    top: 280px;
+    left: 20px;
+}
+
+.textHead {
     font-size: 90px;
     color: #ffffff;
-    font-family: 'Just Another Hand', cursive;
+    font-family: 'justHand';
+    margin-left: 20px;
 }
-.circle{
+
+.circle {
     position: relative;
     width: 150px;
     height: 150px;
@@ -40,140 +78,506 @@ body{
     border-radius: 125px;
     left: 90px;
 }
-.ship{
+
+.ship {
     position: absolute;
-    width:260px;
+    width: 260px;
     left: -50px;
     top: -15px;
     height: 180px;
 
 }
-.img-language{
+
+.imgLanguage {
     width: 100px;
 }
-.language{
+
+.language {
     display: flex;
     align-items: center;
-    font-family: 'Just Another Hand', cursive;
+    font-family: 'justHand';
     font-size: 75px;
     color: #ffffff;
 }
-.text-lanuage{
-    font-family: 'Montserrat', light;
-    color: #ffffff;
-    font-size: 24px;
-    margin-top: -60px;
-}
-.logo-w{
-    position: absolute;
+
+.logoWhite {
+    position: fixed;
     width: 50px;
-    height: 50px;
-    right: -50px;
-    bottom: -200px;
+    right: 15px;
 }
-.currency{
+
+.currency {
     position: relative;
     padding-top: 60px;
 }
-.circle2{
+
+.imgCircle {
     width: 100px;
     margin-top: 150px;
 }
-.img-money{
+
+.imgMoney {
     width: 75px;
     margin-left: -85px;
     margin-bottom: 17px;
 }
-.textHead2{
-    font-family: 'Just Another Hand', cursive;
+
+.textHeadSecond {
+    font-family: 'justHand';
     font-size: 70px;
     color: #ffffff;
     margin-left: 190px;
     margin-top: -115px;
 }
-.textCurrency{
-    font-family: 'Montserrat', sans-serif;
+
+.textContent {
+    font-family: 'mont';
     color: #ffffff;
     font-size: 20px;
     line-height: 40px;
     padding-bottom: 10px;
+    margin-left: 20px;
 }
-.bold{
-    font-family: 'Montserrat', sans-serif;
+
+.bold {
+    font-family: 'montBold';
     font-size: 24px;
     color: #ffffff;
-    font-weight: bold;
     line-height: 15px;
+    margin-left: 20px;
 }
-.notice{
-    font-family: 'Just Another Hand', cursive;
+
+.textNotice {
+    font-family: 'justHand';
     font-size: 24px;
     color: #ffffff;
     margin-top: -50px;
+    margin-left: 55px;
 }
-.arrow{
+
+.arrow {
     width: 30px;
     margin-top: -15px;
-    margin-left:-35px;
+    margin-left: -20px;
 }
-.line{
+
+.line {
     padding-top: 15px;
     width: 850px;
     margin-left: -40px;
 }
-.credit{
+
+.credit {
     margin-top: -100px;
 }
-.img-card{
+
+.imgCard {
     width: 75px;
     margin-left: -85px;
     margin-bottom: 25px;
 }
-.logo-w2{
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    right: -50px;
-}
-.Passports{
+
+.Passports {
     padding-top: 50px;
 }
-.img-passport{
+
+.imgPassport {
     width: 75px;
     margin-left: -85px;
     margin-bottom: 15px;
 }
-.img-climate{
+
+.imgClimate {
     width: 75px;
     margin-left: -88px;
     margin-bottom: 15px;
 }
-.img-phone{
+
+.imgPhone {
     width: 65px;
     margin-left: -70px;
     margin-bottom: 15px;
 }
-.img-negotiating{
+
+.imgNegonating {
     width: 75px;
     margin-left: -80px;
     margin-bottom: 15px;
 }
-.logo-w3{
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    right: -50px;
-    bottom: -15px;
-}
-footer{
+
+footer {
+    display: flex;
     padding-top: 200px;
     margin: 0;
     margin-bottom: 0;
 }
-.logo-b{
+
+.logoBlack {
     position: absolute;
     width: 50px;
     height: 50px;
-    right: 50px;
-    padding-top: 710px;
+    right: 100px;
+    padding-top: 1100px;
+}
+
+@media screen and (max-width: 625px) {
+    .container {
+        width: 100%;
+        height: 100%;
+        max-width: 624px;
+        margin: 0 auto;
+    }
+
+    .textHead {
+        font-size: 55px;
+    }
+
+    .circle {
+        width: 75px;
+        height: 75px;
+    }
+
+    .ship {
+        position: absolute;
+        left: -35PX;
+        top: -15px;
+        height: 95px;
+        width: 140px;
+    }
+
+    .wave {
+        position: absolute;
+        width: 130px;
+        top: 165px;
+        left: 20px;
+    }
+
+    .language {
+        display: flex;
+        align-items: center;
+        font-family: 'justHand';
+        font-size: 55px;
+        color: #ffffff;
+    }
+
+    .imgLanguage {
+        width: 60px;
+    }
+
+    .logoWhite {
+        position: fixed;
+        width: 50px;
+        right: 15px;
+    }
+
+    .currency {
+        position: relative;
+        padding-top: 60px;
+    }
+
+    .imgCircle {
+        width: 60px;
+        margin-top: 150px;
+    }
+
+    .imgMoney {
+        width: 50px;
+        margin-left: -55px;
+        margin-bottom: 10px;
+    }
+
+    .textHeadSecond {
+        font-family: 'justHand';
+        font-size: 40px;
+        color: #ffffff;
+        margin-left: 130px;
+        margin-top: -75px;
+    }
+
+    .textContent {
+        font-family: 'mont';
+        color: #ffffff;
+        font-size: 15px;
+        line-height: 20px;
+        padding-bottom: 10px;
+        margin-left: 20px;
+    }
+
+    .bold {
+        font-family: 'montBold';
+        font-size: 15px;
+        color: #ffffff;
+        line-height: 15px;
+        margin-left: 20px;
+    }
+
+    .textNotice {
+        font-family: 'justHand';
+        font-size: 15px;
+        color: #ffffff;
+        margin-top: -35px;
+        margin-left: 55px;
+    }
+
+    .arrow {
+        width: 15px;
+        margin-top: -15px;
+        margin-left: -10px;
+    }
+
+    .line {
+        padding-top: 15px;
+        width: 460px;
+        margin-left: -20px;
+    }
+
+    .credit {
+        margin-top: -100px;
+    }
+
+    .imgCard {
+        width: 50px;
+        margin-left: -55px;
+        margin-bottom: 15px;
+    }
+
+    .Passports {
+        padding-top: 50px;
+    }
+
+    .imgPassport {
+        width: 45px;
+        margin-left: -50px;
+        margin-bottom: 10px;
+    }
+
+    .imgClimate {
+        width: 50px;
+        margin-left: -55px;
+        margin-bottom: 5px;
+    }
+
+    .imgPhone {
+        width: 35px;
+        margin-left: -45px;
+        margin-bottom: 10px;
+    }
+
+    .imgNegonating {
+        width: 50px;
+        margin-left: -55px;
+        margin-bottom: 10px;
+    }
+
+    .imgTipping {
+        width: 40px;
+        margin-left: -50px;
+        margin-bottom: 10px;
+    }
+
+    .imgNotice {
+        width: 40px;
+        margin-left: -50px;
+        margin-bottom: 10px;
+    }
+
+    footer {
+        display: flex;
+        padding-top: 200px;
+        margin: 0;
+        margin-bottom: 0;
+    }
+
+    .logoBlack {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        right: 100px;
+        padding-top: 190px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .container {
+        width: 100%;
+        height: 100%;
+        max-width: 380px;
+        margin: 0 auto;
+    }
+
+    .textHead {
+        font-size: 25px;
+    }
+    .currency{
+        margin-top: -200px;
+    }
+    .Passports{
+        margin-top: -100px;
+    }
+    .Climate{
+        margin-top: -50px;
+    }
+    .circle {
+        width: 50px;
+        height: 50px;
+    }
+
+    .ship {
+        position: absolute;
+        left: -15px;
+        top: -5px;
+        height: 60px;
+        width: 85px;
+    }
+
+    .wave {
+        position: absolute;
+        width: 55px;
+        top: 60px;
+        left: 4px;
+    }
+
+    .language {
+        display: flex;
+        align-items: center;
+        font-family: 'justHand';
+        font-size: 25px;
+        color: #ffffff;
+    }
+
+    .imgLanguage {
+        width: 40px;
+    }
+
+    .logoWhite {
+        position: fixed;
+        top: 345px;
+        width: 20px;
+        right: -15px;
+    }
+
+    .currency {
+        position: relative;
+        padding-top: 60px;
+    }
+
+    .imgCircle {
+        width: 30px;
+        margin-top: 150px;
+    }
+
+    .imgMoney {
+        width: 25px;
+        margin-left: -28px;
+        margin-bottom: 5px;
+    }
+
+    .textHeadSecond {
+        font-family: 'justHand';
+        font-size: 25px;
+        color: #ffffff;
+        margin-left: 85px;
+        margin-top: -50px;
+    }
+
+    .textContent {
+        font-family: 'mont';
+        color: #ffffff;
+        font-size: 10px;
+        line-height: 15px;
+        padding-bottom: 10px;
+        margin-left: 20px;
+    }
+
+    .bold {
+        font-family: 'montBold';
+        font-size: 10px;
+        color: #ffffff;
+        line-height: 10px;
+        margin-left: 20px;
+    }
+
+    .textNotice {
+        font-family: 'justHand';
+        font-size: 15px;
+        color: #ffffff;
+        margin-top: -35px;
+        margin-left: 55px;
+    }
+
+    .arrow {
+        width: 15px;
+        margin-top: -15px;
+        margin-left: -10px;
+    }
+
+    .line {
+        padding-top: 15px;
+        width: 310px;
+        margin-left: -20px;
+    }
+
+    .credit {
+        margin-top: -100px;
+    }
+
+    .imgCard {
+        width: 20px;
+        margin-left: -25px;
+        margin-bottom: 10px;
+    }
+
+    .Passports {
+        padding-top: 50px;
+    }
+
+    .imgPassport {
+        width: 20px;
+        margin-left: -25px;
+        margin-bottom: 5px;
+    }
+
+    .imgClimate {
+        width: 20px;
+        margin-left: -25px;
+        margin-bottom: 5px;
+    }
+
+    .imgPhone {
+        width: 15px;
+        margin-left: -20px;
+        margin-bottom: 8px;
+    }
+
+    .imgNegonating {
+        width: 25px;
+        margin-left: -25px;
+        margin-bottom: 5px;
+    }
+
+    .imgTipping {
+        width: 20px;
+        margin-left: -25px;
+        margin-bottom: 5px;
+    }
+
+    .imgNotice {
+        width: 15px;
+        margin-left: -23px;
+        margin-bottom: 10px;
+    }
+
+    footer {
+        display: flex;
+        position: absolute;
+        margin-bottom: 1px;
+    }
+
+    .logoBlack {
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        right: 15px;
+        padding-top: 210px;
+    }
 }
