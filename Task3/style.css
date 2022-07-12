@@ -98,6 +98,10 @@ body {
     margin-left: 0px;
     padding: 10px  0;
 }
+.lineCurrency{
+    margin-left: 0px;
+    padding: 10px  0;
+}
 .textBold{
     position: absolute;
     top: 285px;
@@ -136,6 +140,68 @@ body {
     margin: 0;
     padding-top: 100px;
 }
+@media screen and (max-width: 590px) {
+    .container{
+        max-width: unset;
+    }
+    .header{
+        padding-bottom: 45px;
+    }
+    .textHeader{
+        font-size: 40px;
+    }
+    .ship{
+        width: 120px;
+    }
+    .wave{
+        top: 35px;
+        width: 65px;
+        left: 20px;
+    }
+    .textHead{
+        font-size: 45px;
+    }
+    .imgHead{
+        width: 45px;
+    }
+    .textContent{
+        font-size: 13px;
+        line-height: 15px;
+        top: 95px;
+    }
+    .content{
+        height: 210px;
+    }
+    .textBold{
+        position: absolute;
+        top: 210px;
+        padding: 10px;
+    }
+    .bold{
+        font-size:13px;
+    }
+    .linePassport{
+        margin-top: 200px;
+    }
+    .textNotice{
+        font-size: 13px;
+        margin-left: 15px;
+    }
+    .arrow{
+        width: 7px;
+        bottom: 65px;
+        left: -25px;
+    }
+    .contentCurency{
+        height: 415px;
+    }
+    .line{
+        margin-top: 120px;
+    }
+    .contentBank{
+        height: 125px;
+    }
+}
 @media screen and (max-width: 426px) {
     .container{
         max-width: unset;
@@ -157,6 +223,9 @@ body {
     .imgHead{
         width: 30px;
     }
+    .line{
+        margin-top: 15px;
+    }
     .textContent{
         font-size: 7px;
         line-height: 10px;
@@ -176,9 +245,12 @@ body {
         font-size: 7px;
         margin-left: 15px;
     }
+    .linePassport{
+        margin-top: 65px;
+    }
     .arrow{
-        width: 7px;
-        bottom: 52px;
+        width: 5px;
+        bottom: 63px;
     }
     .contentCurency{
         height: 300px;
@@ -187,4 +259,5 @@ body {
         height: 125px;
     }
 }
+
 
