@@ -1,21 +1,18 @@
 .container {
     width: 100%;
     height: 100%;
-    max-width: 600px;
+    max-width: 968px;
     margin: 0 auto;
 }
-
 img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-
 body {
     background-color: #62c1c1;
     margin: 0;
 }
-
 @font-face {
     font-family: "justHand";
     src: url("./Fonts/JustAnotherHand-Regular.ttf") format("truetype"),
@@ -24,16 +21,14 @@ body {
     font-weight: normal;
     font-style: normal;
 }
-
 @font-face {
     font-family: "mont";
-    src: url("./Fonts/Montserrat-VariableFont_wght.ttf") format("truetype"),
-        url("./Fonts/AnyConv.com__Montserrat-VariableFont_wght.woff") format("woff"),
-        url("./Fonts/AnyConv.com__Montserrat-VariableFont_wght.woff2") format("woff2");
-    font-weight: normal;
-    font-style: normal;
+    src: url("./Fonts/Montserrat-Light.ttf") format("truetype"),
+        url("./Fonts/AnyConv.com__Montserrat-Light.woff") format("woff"),
+        url("./Fonts/AnyConv.com__Montserrat-Light.woff2") format("woff2");
+    font-weight: light;
+    font-style: light;
 }
-
 @font-face {
     font-family: "montBold";
     src: url("./Fonts/Montserrat-VariableFont_wght.ttf") format("truetype"),
@@ -51,213 +46,220 @@ body {
 }
 .headContent{
     font-family: 'justHand';
-    font-size: 70px;
+    font-size: 130px;
     color: #ffffff;
     line-height: 20px;
-    padding-left: 10px;
+    padding-left: 40px;
 }
 .wave{
     position: absolute;
-    width: 105px;
-    top: 110px;
-    left: 45px;
+    width: 195px;
+    top: 185px;
+    left: 160px;
 }
 .ship{
-    width: 150px;
+    width: 200px;
+    padding-top: 125px;
 }
 .contentHead{
-    position: absolute;
     display: flex;
     align-items: center;
-    justify-content: left;
-    left: -30px;
-}
-.content{
-    position: relative;
-    height: 440px;
 }
 .imgHead{
-    width: 55px;
+    width: 100px;
 }
 .textHead{
     font-family: 'justHand';
-    font-size: 50px;
+    font-size: 70px;
     color: #ffffff;
+    margin-left: 10px;
 }
 .textContent{
     font-family: 'mont';
     color: #ffffff;
-    font-size: 15px;
-    position: absolute;
-    top: 110px;
-    line-height: 25px;
-    padding-right:125px;
-    padding-left: 10px;
+    font-size: 28px;
+    line-height: 45px;
+    padding: 0 80px 0 40px;
+    margin-top: -30px;
 }
 .line{
-    margin-left: 0px;
-    padding: 10px  0;
-}
-.lineCurrency{
-    margin-left: 0px;
-    padding: 10px  0;
-}
-.textBold{
-    position: absolute;
-    top: 285px;
+    margin: 40px;
+    padding: 5px 0;
 }
 .bold{
     font-family: 'montBold';
-    font-size: 15px;
+    font-size: 28px;
     color: #ffffff; 
+    padding-left: 40px;
 }
 .textNotice{
     font-family: 'justHand';
     color: #ffffff;
-    margin-left: 30px;
+    font-size: 37px;
+    margin-left: 100px;
 }
 .arrow{
-    position: absolute;
-    width: 15px;
-    bottom: 55px;
-    left: -35px;
-}
-.contentCurency{
-    position: relative;
-    height: 500px;
-}
-.contentBank{
-    position: relative;
-    height: 300px;
-}
-.linePassport{
-    margin-top: 75px;
-    margin-left: 0px;
-    padding: 10px  0;
+    width: 30px;
+    margin: -95px 0 0 55px;
 }
 .footer{
     display: flex;
     margin: 0;
     padding-top: 100px;
 }
-@media screen and (max-width: 590px) {
-    .container{
-        max-width: unset;
-    }
+.logoWhite{
+    position: fixed;
+    width: 50px;
+    right: 15px;
+
+}
+@media screen and (max-width: 769px) {
     .header{
-        padding-bottom: 45px;
+        padding-bottom: 50px;
     }
-    .textHeader{
-        font-size: 40px;
-    }
-    .ship{
-        width: 120px;
+    .headContent{
+        font-size: 80px;
+        line-height: 20px;
+        padding-left: 40px;
     }
     .wave{
-        top: 35px;
-        width: 65px;
-        left: 20px;
+        width: 120px;
+        top: 120px;
+        left: 100px;
     }
-    .textHead{
-        font-size: 45px;
+    .ship{
+        width: 160px;
+        padding-top: 80px;
     }
     .imgHead{
-        width: 45px;
+        width: 70px;
+        margin-left: 20;
+    }
+    .textHead{
+        font-size: 55px;
+        margin-left: -15px;
     }
     .textContent{
-        font-size: 13px;
-        line-height: 15px;
-        top: 95px;
-    }
-    .content{
-        height: 210px;
-    }
-    .textBold{
-        position: absolute;
-        top: 210px;
-        padding: 10px;
-    }
-    .bold{
-        font-size:13px;
-    }
-    .linePassport{
-        margin-top: 200px;
-    }
-    .textNotice{
-        font-size: 13px;
-        margin-left: 15px;
-    }
-    .arrow{
-        width: 7px;
-        bottom: 65px;
-        left: -25px;
-    }
-    .contentCurency{
-        height: 415px;
+        font-size: 22px;
+        line-height: 40px;
+        padding: 0 60px 0 30px;
+        margin-top: -30px;
     }
     .line{
-        margin-top: 120px;
+        margin: 0 10px 0 30px;
+        padding: 20px 0;
     }
-    .contentBank{
-        height: 125px;
+    .bold{
+        padding-left: 30px;
+        font-size: 22px;
+    }
+    .textNotice{
+        font-size: 30px;
+        margin-left: 75px;
+    }
+    .arrow{
+        width: 20px;
+        margin: -80px 0 0 40px;
     }
 }
 @media screen and (max-width: 426px) {
-    .container{
-        max-width: unset;
+    .header{
+        padding-bottom: 50px;
     }
-    .textHeader{
-        font-size: 30px;
+    .headContent{
+        font-size: 42px;
+        line-height: 20px;
+        padding-left: 40px;
+    }
+    .wave{
+        width: 60px;
+        top: 75px;
+        left: 55px;
     }
     .ship{
         width: 80px;
-    }
-    .wave{
-        top: 8px;
-        width: 45px;
-        left: 5px;
-    }
-    .textHead{
-        font-size: 25px;
+        padding-top: 80px;
     }
     .imgHead{
-        width: 30px;
+        width: 55px;
+        margin-left: 20;
     }
-    .line{
-        margin-top: 15px;
+    .textHead{
+        font-size: 45px;
+        margin-left: -15px;
     }
     .textContent{
-        font-size: 7px;
-        line-height: 10px;
-        top: 55px;
+        font-size: 13px;
+        line-height: 30px;
+        padding: 0 60px 0 30px;
+        margin-top: -30px;
     }
-    .content{
-        height: 170px;
-    }
-    .textBold{
-        position: absolute;
-        top: 140px;
+    .line{
+        margin: 0 10px 0 30px;
+        padding: 5px 0;
     }
     .bold{
-        font-size:7px;
+        padding-left: 30px;
+        font-size: 11px;
     }
     .textNotice{
-        font-size: 7px;
-        margin-left: 15px;
-    }
-    .linePassport{
-        margin-top: 65px;
+        font-size: 15px;
+        margin-left: 55px;
     }
     .arrow{
-        width: 5px;
-        bottom: 63px;
-    }
-    .contentCurency{
-        height: 300px;
-    }
-    .contentBank{
-        height: 125px;
+        width: 15px;
+        margin: -40px 0 0 35px;
     }
 }
-
+@media screen and (max-width:376px) {
+    .header{
+        padding-bottom: 30px;
+    }
+    .headContent{
+        font-size: 32px;
+        line-height: 20px;
+        padding-left: 20px;
+    }
+    .wave{
+        width: 50px;
+        top: 62px;
+        left: 40px;
+    }
+    .ship{
+        width: 80px;
+        padding-top: 30px;
+        margin-right: 15px;
+    }
+    .imgHead{
+        width: 40px;
+        margin-left: 20px;
+    }
+    .textHead{
+        font-size: 35px;
+        margin-left: -25px;
+    }
+    .textContent{
+        font-size: 9px;
+        line-height: 25px;
+        padding: 0 30px 0 20px;
+        margin-top: -30px;
+    }
+    .line{
+        margin: 0 20px 0 20px;
+        padding: 5px 0;
+    }
+    .bold{
+        padding-left: 20px;
+        font-size: 9px;
+    }
+    .textNotice{
+        font-size: 12px;
+        margin-left: 40px;
+    }
+    .arrow{
+        width: 10px;
+        margin: -30px 0 0 25px;
+    }
+    
+}
 
