@@ -60,8 +60,8 @@ img {
   margin-right: auto;
   width: 350px;
 }
-.lotus {
-  padding: 0 10px;
+.lotus{
+    width: 100%;
 }
 
 .content {
@@ -127,8 +127,38 @@ img {
   }
   .imglotus {
     width: 100%;
-  }
-  .imglogo-b {
-    width: 10%;
-  }
+    max-width: 350px;
+    top: -10px;
+    left: 20px;
+    margin: 0;
+}
+.logoBlack{
+    padding: 50px;
+    width: 50px;
+    margin: 0 auto
+}
+}
+@media screen and (max-width: 376px) {
+    .textHead{
+        padding-top: 50px;
+    }
+    .Content{
+        width: 300px;
+    }
+    .textHead{
+        font-size: 15px;
+        line-height: 5px;
+    }
+    .textContent{
+        font-size: 70px;
+        line-height: 60px;
+    }
+    .dragon{
+        top: 5px;
+        left: 65px;
+        max-width: 190px;
+    }
+    .logoBlack{
+        width: 25px;
+    }
 }
