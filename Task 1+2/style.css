@@ -20,18 +20,18 @@ img {
 
 @font-face {
   font-family: 'just-hand';
-  src: url('./Fonts/JustAnotherHand-Regular.ttf') format('truetype'),
-    url('./Fonts/AnyConv.com__JustAnotherHand-Regular.woff') format('woff'),
-    url('./Fonts/AnyConv.com__JustAnotherHand-Regular.woff2') format('woff2');
+  src: url('/Fonts/JustAnotherHand-Regular.ttf') format('truetype'),
+    url('/Fonts/AnyConv.com__JustAnotherHand-Regular.woff') format('woff'),
+    url('/Fonts/AnyConv.com__JustAnotherHand-Regular.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'mont';
-  src: url('./Fonts/Montserrat-VariableFont_wght.ttf') format('truetype'),
-    url('./Fonts/AnyConv.com__Montserrat-VariableFont_wght.woff') format('woff'),
-    url('./Fonts/AnyConv.com__Montserrat-VariableFont_wght.woff2')
+  src: url('/Fonts/Montserrat-VariableFont_wght.ttf') format('truetype'),
+    url('/Fonts/AnyConv.com__Montserrat-VariableFont_wght.woff') format('woff'),
+    url('/Fonts/AnyConv.com__Montserrat-VariableFont_wght.woff2')
       format('woff2');
   font-weight: bold;
   font-style: normal;
@@ -53,112 +53,73 @@ img {
   border-radius: 1px;
   margin-top: -10px;
 }
-
-.maincontent {
+.Content {
   position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  width: 350px;
-}
-.lotus{
-    width: 100%;
 }
 
 .content {
   text-align: center;
 }
-.imgdragon {
-  padding-top: 40px;
-  width: 260px;
+.dragon {
+  position: absolute;
+  width: 350px;
+  top: -25px;
+  left: 290px;
 }
-.textcontent {
-  font-family: 'just-hand';
-  font-size: 90px;
-  color: yellow;
-  line-height: 78px;
-  margin-top: -140px;
-  margin-right: 25px;
-}
-
-.lotus {
-  text-align: center;
-}
-
-.imglotus {
-  width: 550px;
-}
-
-.logo-b {
-  text-align: center;
-  padding-top: 35px;
-}
-
-.imglogo-b {
+.logoBlack {
+  padding: 50px;
   width: 50px;
+  margin: 0 auto;
 }
-
-@media screen and (max-width: 900px) {
-  .texthead {
-    font-size: 75%;
-  }
-  .imglotus {
-    width: 65%;
-  }
-  .imglogo-b {
-    width: 10%;
+@media screen and (max-width: 1440px) {
+  .dragon {
+    left: 290px;
   }
 }
-
-@media screen and (max-width: 375px) {
-  .texthead {
-    font-size: 50%;
+@media screen and (max-width: 768px) {
+  .dragon {
+    left: 190px;
   }
-  .textcontent {
-    font-size: 23vw;
-    line-height: 49px;
-    margin-top: -85px;
-    margin-left: 5px;
-  }
-  .imgdragon {
-    width: 70%;
-  }
-  .line {
-    width: 20px;
-  }
-  .imglotus {
-    width: 100%;
-    max-width: 350px;
-    top: -10px;
+}
+@media screen and (max-width: 452px) {
+  .dragon {
     left: 20px;
-    margin: 0;
-}
-.logoBlack{
-    padding: 50px;
-    width: 50px;
-    margin: 0 auto
-}
+  }
 }
 @media screen and (max-width: 376px) {
-    .textHead{
-        padding-top: 50px;
-    }
-    .Content{
-        width: 300px;
-    }
-    .textHead{
-        font-size: 15px;
-        line-height: 5px;
-    }
-    .textContent{
-        font-size: 70px;
-        line-height: 60px;
-    }
-    .dragon{
-        top: 5px;
-        left: 65px;
-        max-width: 190px;
-    }
-    .logoBlack{
-        width: 25px;
-    }
+  .textHead {
+    font-size: 20px;
+  }
+  .dragon {
+    left: 5px;
+    width: 320px;
+  }
+  .textContent {
+    font-size: 120px;
+    line-height: 105px;
+  }
+}
+@media screen and (max-width: 376px) {
+  .textHead {
+    padding-top: 50px;
+  }
+  .Content {
+    width: 300px;
+  }
+  .textHead {
+    font-size: 15px;
+    line-height: 5px;
+  }
+  .textContent {
+    font-size: 70px;
+    line-height: 60px;
+  }
+  .dragon {
+    top: 5px;
+    left: 65px;
+    max-width: 190px;
+  }
+  .logoBlack {
+    width: 25px;
+  }
 }
