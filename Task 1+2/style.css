@@ -97,12 +97,6 @@ img {
   width: 50px;
 }
 
-@media screen and (max-width: 1200px) {
-  body {
-    background-color: yellow;
-  }
-}
-
 @media screen and (max-width: 900px) {
   .texthead {
     font-size: 75%;
