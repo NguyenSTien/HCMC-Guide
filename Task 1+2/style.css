@@ -1,126 +1,89 @@
 .container {
-  width: 100%;
-  height: 100%;
-  max-width: 968px;
-  margin: 0 auto;
-}
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-@font-face {
-  font-family: 'just-hand';
-  src: url('./Fonts/JustAnotherHand-Regular.ttf') format('truetype'),
-    url('./Fonts/AnyConv.com__JustAnotherHand-Regular.woff') format('woff'),
-    url('./Fonts/AnyConv.com__JustAnotherHand-Regular.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'mont';
-  src: url('./Fonts/Montserrat-VariableFont_wght.ttf') format('truetype'),
-    url('./Fonts/AnyConv.com__Montserrat-VariableFont_wght.woff') format('woff'),
-    url('./Fonts/AnyConv.com__Montserrat-VariableFont_wght.woff2')
-      format('woff2');
-  font-weight: bold;
-  font-style: normal;
-}
-.textHead {
-  padding-top: 150px;
-  text-align: center;
-  font-family: 'mont';
-  font-size: 25px;
-  line-height: 10px;
-}
-.line {
-  width: 70px;
-  height: 1px;
-  background-color: #e8a829;
-  margin: 0 auto;
-}
-.Content {
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  width: 350px;
-}
-.lotus {
-  width: 100%;
-}
-.textContent {
-  padding-top: 30px;
-  font-family: 'just-hand';
-  color: #f3c900;
-  font-size: 130px;
-  text-align: center;
-  line-height: 115px;
-}
-.dragon {
-  position: absolute;
-  width: 350px;
-  top: -25px;
-  left: 290px;
-}
-.logoBlack {
-  padding: 50px;
-  width: 50px;
-  margin: 0 auto;
-}
-@media screen and (max-width: 1440px) {
-  .dragon {
-    left: 290px;
+    width: 100%;
+    height: 100%;
+    max-width: 968px;
+    margin: 0 auto;
   }
-}
-@media screen and (max-width: 768px) {
-  .dragon {
-    left: 190px;
+  
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
-}
-@media screen and (max-width: 452px) {
-  .dragon {
-    left: 20px;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
-}
-@media screen and (max-width: 376px) {
-  .textHead {
+  @font-face {
+    font-family: 'just-hand';
+    src: url('./Fonts/JustAnotherHand-Regular.ttf') format('truetype'),
+      url('./Fonts/AnyConv.com__JustAnotherHand-Regular.woff') format('woff'),
+      url('./Fonts/AnyConv.com__JustAnotherHand-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'mont';
+    src: url('./Fonts/Montserrat-VariableFont_wght.ttf') format('truetype'),
+      url('./Fonts/AnyConv.com__Montserrat-VariableFont_wght.woff') format('woff'),
+      url('./Fonts/AnyConv.com__Montserrat-VariableFont_wght.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+  }
+  .head{
+    font-family: 'mont';
+    color: #5e5a58;
     font-size: 20px;
+    text-align: center;
   }
-  .dragon {
-    left: 5px;
-    width: 320px;
+  .line{
+    width: 60px;
+    height: 1px;
+    background-color: #e8a829;
+    margin: -15px auto 200px;
   }
-  .textContent {
-    font-size: 120px;
-    line-height: 105px;
+  .content{
+    position: relative;
+    width: 400px;
+    margin: 0 auto;
   }
-}
-@media screen and (max-width: 376px) {
-  .textHead {
-    padding-top: 50px;
+  .textContent{
+    font-family: 'just-hand';
+    color: #f3c900;
+    text-align: center;
+    font-size: 130px;
+    line-height: 0px;
   }
-  .Content {
-    width: 300px;
+  .dragon{
+    position: absolute;
+    top: -115px;
+    right: -40px;
   }
-  .textHead {
-    font-size: 15px;
-    line-height: 5px;
+  .logoBlack{
+    width: 50px;
+    margin: 0 auto;
+    padding-top: 15px;
   }
-  .textContent {
-    font-size: 70px;
-    line-height: 60px;
+  @media screen and (max-width:425px) {
+    .head{
+      font-size:15px;
+    }
+    .line{
+      width: 45px;
+      margin: -10px auto 140px;
+    }
+    .content{
+      width: 300px;
+    }
+    .textContent{
+      font-size: 90px;
+    }
+    .dragon{
+      top: -85px;
+      right: -25px;
+    }
+    .logoBlack{
+      width: 25px;
+    }
   }
-  .dragon {
-    top: 5px;
-    left: 65px;
-    max-width: 190px;
-  }
-  .logoBlack {
-    width: 25px;
-  }
-}
