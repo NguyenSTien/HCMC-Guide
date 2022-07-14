@@ -50,7 +50,7 @@ img {
     width: 350px;
 }
 .lotus{
-    padding: 0 10px;
+    width: 100%;
 }
 .textContent{
     padding-top: 30px;
@@ -64,43 +64,36 @@ img {
     position: absolute;
     width: 100%;
     max-width: 350px;
-    top: -25px;
-    left: 0px;
+    top: -10px;
+    left: 20px;
+    margin: 0;
 }
 .logoBlack{
     padding: 50px;
     width: 50px;
     margin: 0 auto
 }
-@media screen and (max-width:376px) {
-    .textHead{
-        font-size: 20px;
-    }
-    .dragon{
-        left: 5px;
-        width: 320px;
-    }  
-    .textContent{
-        font-size: 120px;
-        line-height: 105px;
-    }
-}
-@media screen and (max-width:320px) {
+@media screen and (max-width: 376px) {
     .textHead{
         padding-top: 50px;
+    }
+    .Content{
+        width: 300px;
+    }
+    .textHead{
         font-size: 15px;
+        line-height: 5px;
     }
     .textContent{
-        font-size: 90px;
-        line-height: 80px;
-        padding-top: 0;
+        font-size: 70px;
+        line-height: 60px;
     }
     .dragon{
-        top: -45px;
-        left: 10px;
-        width: 250px;
-    }  
+        top: 5px;
+        left: 65px;
+        max-width: 190px;
+    }
     .logoBlack{
-        width: 30px;
+        width: 25px;
     }
 }
