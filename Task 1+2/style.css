@@ -1,170 +1,89 @@
 .container {
-  width: 100%;
-  height: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  position: relative;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-@font-face {
-  font-family: 'just-hand';
-  src: url('./Fonts/JustAnotherHand-Regular.ttf') format('truetype'),
-    url('./Fonts/AnyConv.com__JustAnotherHand-Regular.woff') format('woff'),
-    url('./Fonts/AnyConv.com__JustAnotherHand-Regular.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'mont';
-  src: url('./Fonts/Montserrat-VariableFont_wght.ttf') format('truetype'),
-    url('./Fonts/AnyConv.com__Montserrat-VariableFont_wght.woff') format('woff'),
-    url('./Fonts/AnyConv.com__Montserrat-VariableFont_wght.woff2')
-      format('woff2');
-  font-weight: bold;
-  font-style: normal;
-}
-
-.texthead {
-  font-family: 'mont';
-  text-align: center;
-  margin-top: 100px;
-  /* font-size: 24px; */
-  font-weight: bold;
-}
-
-.line {
-  width: 60px;
-  height: 2px;
-  background-color: orange;
-  margin: 0 auto;
-  border-radius: 1px;
-  margin-top: -10px;
-}
-
-.maincontent {
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  width: 350px;
-}
-.lotus{
     width: 100%;
-}
-
-.content {
-  text-align: center;
-}
-.imgdragon {
-  padding-top: 40px;
-  width: 260px;
-}
-.textcontent {
-  font-family: 'just-hand';
-  font-size: 90px;
-  color: yellow;
-  line-height: 78px;
-  margin-top: -140px;
-  margin-right: 25px;
-}
-
-.lotus {
-  text-align: center;
-}
-
-.imglotus {
-  width: 550px;
-}
-
-.logo-b {
-  text-align: center;
-  padding-top: 35px;
-}
-
-.imglogo-b {
-  width: 50px;
-}
-
-@media screen and (max-width: 1200px) {
+    height: 100%;
+    max-width: 968px;
+    margin: 0 auto;
+  }
+  
   body {
-    background-color: yellow;
-  }
-}
-
-@media screen and (max-width: 900px) {
-  .texthead {
-    font-size: 75%;
-  }
-  .imglotus {
-    width: 65%;
-  }
-  .imglogo-b {
-    width: 10%;
-  }
-}
-
-@media screen and (max-width: 375px) {
-  .texthead {
-    font-size: 50%;
-  }
-  .textcontent {
-    font-size: 23vw;
-    line-height: 49px;
-    margin-top: -85px;
-    margin-left: 5px;
-  }
-  .imgdragon {
-    width: 70%;
-  }
-  .line {
-    width: 20px;
-  }
-  .imglotus {
-    width: 100%;
-    max-width: 350px;
-    top: -10px;
-    left: 20px;
     margin: 0;
-}
-.logoBlack{
-    padding: 50px;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  @font-face {
+    font-family: 'just-hand';
+    src: url('./Fonts/JustAnotherHand-Regular.ttf') format('truetype'),
+      url('./Fonts/AnyConv.com__JustAnotherHand-Regular.woff') format('woff'),
+      url('./Fonts/AnyConv.com__JustAnotherHand-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'mont';
+    src: url('./Fonts/Montserrat-VariableFont_wght.ttf') format('truetype'),
+      url('./Fonts/AnyConv.com__Montserrat-VariableFont_wght.woff') format('woff'),
+      url('./Fonts/AnyConv.com__Montserrat-VariableFont_wght.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+  }
+  .head{
+    font-family: 'mont';
+    color: #5e5a58;
+    font-size: 20px;
+    text-align: center;
+  }
+  .line{
+    width: 60px;
+    height: 1px;
+    background-color: #e8a829;
+    margin: -15px auto 200px;
+  }
+  .content{
+    position: relative;
+    width: 400px;
+    margin: 0 auto;
+  }
+  .textContent{
+    font-family: 'just-hand';
+    color: #f3c900;
+    text-align: center;
+    font-size: 130px;
+    line-height: 0px;
+  }
+  .dragon{
+    position: absolute;
+    top: -115px;
+    right: -40px;
+  }
+  .logoBlack{
     width: 50px;
-    margin: 0 auto
-}
-}
-@media screen and (max-width: 376px) {
-    .textHead{
-        padding-top: 50px;
+    margin: 0 auto;
+    padding-top: 15px;
+  }
+  @media screen and (max-width:425px) {
+    .head{
+      font-size:15px;
     }
-    .Content{
-        width: 300px;
+    .line{
+      width: 45px;
+      margin: -10px auto 140px;
     }
-    .textHead{
-        font-size: 15px;
-        line-height: 5px;
+    .content{
+      width: 300px;
     }
     .textContent{
-        font-size: 70px;
-        line-height: 60px;
+      font-size: 90px;
     }
     .dragon{
-        top: 5px;
-        left: 65px;
-        max-width: 190px;
+      top: -85px;
+      right: -25px;
     }
     .logoBlack{
-        width: 25px;
+      width: 25px;
     }
-}
+  }
