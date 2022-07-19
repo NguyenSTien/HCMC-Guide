@@ -1,0 +1,414 @@
+.container {
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 40px;
+    max-width: 1200px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+@font-face {
+    font-family: "justHand";
+    src: url("./Fonts/JustAnotherHand-Regular.ttf") format("truetype"),
+        url("./Fonts/AnyConv.com__JustAnotherHand-Regular.woff") format("woff"),
+        url("./Fonts/AnyConv.com__JustAnotherHand-Regular.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "mont";
+    src: url("./Fonts/Montserrat-Light.ttf") format("truetype"),
+        url("./Fonts/AnyConv.com__Montserrat-Light.woff") format("woff"),
+        url("./Fonts/AnyConv.com__Montserrat-Light.woff2") format("woff2");
+    font-weight: light;
+    font-style: light;
+}
+
+@font-face {
+    font-family: "montBold";
+    src: url("./Fonts/Montserrat-ExtraBoldItalic.ttf") format("truetype"),
+        url("./Fonts/AnyConv.com__Montserrat-ExtraBoldItalic.woff") format("woff"),
+        url("./Fonts/AnyConv.com__Montserrat-BoldItalic.woff2") format("woff2");
+    font-weight: italic;
+    font-style: italic;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    align-items: center;
+}
+
+.textHeader {
+    position: relative;
+    font-family: 'justHand';
+    font-size: 80px;
+    color: #000;
+}
+
+.bike {
+    width: 135px;
+    margin: 0;
+}
+
+.line {
+    position: absolute;
+    margin: 0;
+    width: 370px;
+    top: 115px;
+    right: 0px;
+}
+
+.textHead {
+    font-family: "justHand";
+    font-size: 50px;
+    margin: 30px 0;
+    color: #e95760;
+}
+
+.textContent,
+.textContentRed {
+    font-family: 'mont';
+    font-size: 20px;
+    line-height: 55px;
+    padding-top: 30px;
+}
+
+.lineRed {
+    padding: 30px 0;
+}
+
+.textContentRed {
+    color: #e95760;
+}
+
+.textHeadBig {
+    font-family: "justHand";
+    font-size: 100px;
+    margin: 0;
+}
+
+.safety {
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.traffic {
+    margin: 0;
+    width: 200px;
+}
+
+.lineSafety {
+    width: 450px;
+    margin-top: -30px;
+    margin-left: 0;
+}
+
+.lineAirport {
+    width: 295px;
+    margin-top: -35px;
+    margin-left: 0;
+}
+
+.bgr {
+    position: relative;
+    margin-top: 150px;
+    height: 600px;
+    background-color: #e95760;
+}
+
+.contentFooter {
+    padding: 60px;
+    font-size: 28px;
+}
+
+.textFooter {
+    margin-top: -30px;
+    color: #fff;
+}
+
+.textFooterBold {
+    font-size: 40px;
+    color: #c59e35;
+    margin: 0 20px;
+}
+
+.lineWhite {
+    margin: 0 20px;
+}
+
+.plane {
+    position: absolute;
+    width: 150px;
+    right: 15px;
+    top: -100px;
+}
+
+.logoWhite {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    right: 15px;
+    bottom: 15px;
+}
+
+::marker {
+    color: #fff;
+}
+
+@media screen and (max-width:768px) {
+    .container{
+        padding: 0 20px;
+    }
+
+    .textHeader {
+        font-size: 55px;
+    }
+
+    .bike {
+        width: 85px;
+        margin-right: 15px;
+    }
+
+    .line {
+        width: 255px;
+        top: 75px;
+    }
+
+    .textHead {
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .textContent,
+    .textContentRed {
+        font-size: 15px;
+        line-height: 35px;
+        padding-top: 5px;
+
+    }
+
+    .lineRed {
+        padding: 0;
+    }
+
+    .textHeadBig {
+        font-size: 50px;
+    }
+
+    .safety {
+        height: 150px;
+    }
+
+    .traffic {
+        margin: 0;
+        width: 200px;
+    }
+
+    .lineSafety {
+        width: 225px;
+        margin-top: -20px;
+    }
+
+    .lineAirport {
+        width: 150px;
+        margin-top: -25px;
+    }
+
+    .bgr {
+        height: 300px;
+    }
+
+    .contentFooter {
+        padding-left: 0px;
+    }
+
+    .textFooter {
+        font-size: 12px;
+    margin-top: -20px;
+    }
+
+    .textFooterBold {
+        font-size: 24px;
+    }
+
+    .lineWhite {
+        height: 10px;
+        margin: 0 20px;
+    }
+
+    .plane {
+        width: 90px;
+        right: -10px;
+        top: -70px;
+    }
+
+    .logoWhite {
+        width: 30px;
+        right: -10px;
+        bottom: -20px;
+    }
+    ::marker {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 520px) {
+    .textHeader {
+        font-size: 55px;
+    }
+    .line {
+        width: 255px;
+        top: 75px;
+    }
+    .bike {
+        width: 50px;
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+    
+    .bgr {
+        height: 300px;
+    }
+
+    .contentFooter {
+        padding-left: 0px;
+    }
+
+    .textFooter {
+        font-size: 12px;
+    margin-top: -20px;
+    }
+
+    .textFooterBold {
+        font-size: 24px;
+    }
+
+    .lineWhite {
+        height: 10px;
+        margin: 0 20px;
+    }
+
+    .plane {
+        width: 90px;
+        right: -10px;
+        top: -70px;
+    }
+
+    .logoWhite {
+        width: 30px;
+        right: -10px;
+        bottom: -20px;
+    }
+    ::marker {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 519px) {
+    .container {
+        padding: 0 10px;
+    }
+
+    .textHeader {
+        font-size: 36px;
+    }
+
+    .bike {
+        width: 50px;
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+
+    .line {
+        width: 165px;
+    top: 50px;
+    }
+
+    .textHead {
+        font-size: 20px;
+    }
+
+    .textContent,
+    .textContentRed {
+        font-size: 10px;
+        line-height: 25px;
+    }
+
+    .lineRed {
+        margin: 0;
+        padding: 0 10px;
+    }
+
+    .textHeadBig {
+        font-size: 35px;
+    }
+
+    .safety {
+        height: 80px;
+    }
+
+    .traffic {
+        margin: 0;
+        width: 100px;
+    }
+
+    .lineSafety {
+        width: 160px;
+    }
+
+    .lineAirport {
+        width: 100px;
+        margin-top: -20px;
+    }
+
+    .bgr {
+        height: 300px;
+    }
+
+    .contentFooter {
+        padding-left: 0px;
+    }
+
+    .textFooter {
+        font-size: 9px;
+        margin-top: -10px;
+    }
+
+    .textFooterBold {
+        font-size: 11px;
+    }
+
+    .lineWhite {
+        margin: 0 20px;
+    }
+
+    .plane {
+        width: 60px;
+        right: -20px;
+        top: -55px;
+    }
+
+    .logoWhite {
+        width: 30px;
+        right: -10px;
+        bottom: -20px;
+    }
+
+    ::marker {
+        font-size: 10px;
+    }
+}
