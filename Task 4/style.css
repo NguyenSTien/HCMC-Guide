@@ -34,16 +34,42 @@ img {
     font-weight: light;
     font-style: light;
 }
-
+@font-face {
+    font-family: "montMedium";
+    src: url("./Fonts/Montserrat-Medium.ttf") format("truetype"),
+        url("./Fonts/AnyConv.com__Montserrat-Medium.woff") format("woff"),
+        url("./Fonts/AnyConv.com__Montserrat-Medium.woff2") format("woff2");
+    font-weight: medium;
+    font-style: medium;
+}
 @font-face {
     font-family: "montBold";
-    src: url("./Fonts/Montserrat-ExtraBoldItalic.ttf") format("truetype"),
-        url("./Fonts/AnyConv.com__Montserrat-ExtraBoldItalic.woff") format("woff"),
+    src: url("./Fonts/Montserrat-Bold.ttf") format("truetype"),
+        url("./Fonts/AnyConv.com__Montserrat-Bold.woff") format("woff"),
+        url("./Fonts/AnyConv.com__Montserrat-Bold.woff2") format("woff2");
+    font-weight: medium;
+    font-style: medium;
+}
+
+@font-face {
+    font-family: "montBoldItalic";
+    src: url("./Fonts/Montserrat-BoldItalic.ttf") format("truetype"),
+        url("./Fonts/AnyConv.com__Montserrat-BoldItalic.woff") format("woff"),
         url("./Fonts/AnyConv.com__Montserrat-BoldItalic.woff2") format("woff2");
     font-weight: italic;
     font-style: italic;
 }
-
+@font-face {
+    font-family: "montExtraBold";
+    src: url("./Fonts/Montserrat-ExtraBold.ttf") format("truetype"),
+        url("./Fonts/AnyConv.com__Montserrat-ExtraBold.woff") format("woff"),
+        url("./Fonts/AnyConv.com__Montserrat-ExtraBold.woff2") format("woff2");
+    font-weight: italic;
+    font-style: italic;
+}
+.header{
+    padding-top: 150px;
+}
 .head {
     display: flex;
     justify-content: space-between;
@@ -72,10 +98,10 @@ img {
 }
 
 .textHead {
-    font-family: "justHand";
-    font-size: 50px;
-    margin: 30px 0;
-    color: #e95760;
+    font-family: "montBoldItalic";
+    font-size: 20px;
+    margin: 0;
+    color: #e64e59;
 }
 
 .textContent,
@@ -83,7 +109,7 @@ img {
     font-family: 'mont';
     font-size: 20px;
     line-height: 55px;
-    padding-top: 30px;
+    color: #45403d;
 }
 
 .lineRed {
@@ -91,7 +117,8 @@ img {
 }
 
 .textContentRed {
-    color: #e95760;
+    color: #e64e59;
+    margin-top: 150px;
 }
 
 .textHeadBig {
@@ -137,13 +164,16 @@ img {
 }
 
 .textFooter {
-    margin-top: -30px;
+    font-size: 20px;
+    font-family: 'montMedium';
+    margin-top: -25px;
     color: #fff;
 }
 
 .textFooterBold {
-    font-size: 40px;
-    color: #c59e35;
+    font-family: 'montExtraBold';
+    font-size: 30px;
+    color: #f3c900;
     margin: 0 20px;
 }
 
@@ -171,6 +201,9 @@ img {
 }
 
 @media screen and (max-width:768px) {
+    .header{
+        padding-top: 80px;
+    }
     .container{
         padding: 0 20px;
     }
@@ -190,7 +223,7 @@ img {
     }
 
     .textHead {
-        font-size: 30px;
+        font-size: 15px;
         margin: 0;
     }
 
@@ -199,9 +232,10 @@ img {
         font-size: 15px;
         line-height: 35px;
         padding-top: 5px;
-
     }
-
+    .textContentRed{
+        margin-top: 20px;
+    }
     .lineRed {
         padding: 0;
     }
@@ -228,7 +262,9 @@ img {
         width: 150px;
         margin-top: -25px;
     }
-
+    .footer{
+        margin-top: -50px;
+    }
     .bgr {
         height: 300px;
     }
@@ -267,6 +303,9 @@ img {
     }
 }
 @media screen and (max-width: 520px) {
+    .header{
+        padding-top: 10px;
+    }
     .textHeader {
         font-size: 55px;
     }
@@ -279,7 +318,9 @@ img {
         margin-top: 0px;
         margin-right: 0px;
     }
-    
+    .textContentRed{
+        margin-top: -15px;
+    }
     .bgr {
         height: 300px;
     }
@@ -339,7 +380,7 @@ img {
     }
 
     .textHead {
-        font-size: 20px;
+        font-size: 12px;
     }
 
     .textContent,
