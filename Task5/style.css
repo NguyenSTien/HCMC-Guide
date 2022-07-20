@@ -1,0 +1,522 @@
+.container {
+    position: relative;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 50px;
+    max-width: 900px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@font-face {
+    font-family: "justHand";
+    src: url("./Fonts/JustAnotherHand-Regular.ttf") format("truetype"),
+        url("./Fonts/AnyConv.com__JustAnotherHand-Regular.woff") format("woff"),
+        url("./Fonts/AnyConv.com__JustAnotherHand-Regular.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "mont";
+    src: url("./Fonts/Montserrat-Light.ttf") format("truetype"),
+        url("./Fonts/AnyConv.com__Montserrat-Light.woff") format("woff"),
+        url("./Fonts/AnyConv.com__Montserrat-Light.woff2") format("woff2");
+    font-weight: light;
+    font-style: light;
+}
+
+@font-face {
+    font-family: "montMedium";
+    src: url("./Fonts/Montserrat-Medium.ttf") format("truetype"),
+        url("./Fonts/AnyConv.com__Montserrat-Medium.woff") format("woff"),
+        url("./Fonts/AnyConv.com__Montserrat-Medium.woff2") format("woff2");
+    font-weight: medium;
+    font-style: medium;
+}
+
+@font-face {
+    font-family: "montBold";
+    src: url("./Fonts/Montserrat-Bold.ttf") format("truetype"),
+        url("./Fonts/AnyConv.com__Montserrat-Bold.woff") format("woff"),
+        url("./Fonts/AnyConv.com__Montserrat-Bold.woff2") format("woff2");
+    font-weight: medium;
+    font-style: medium;
+}
+
+@font-face {
+    font-family: "montBoldItalic";
+    src: url("./Fonts/Montserrat-BoldItalic.ttf") format("truetype"),
+        url("./Fonts/AnyConv.com__Montserrat-BoldItalic.woff") format("woff"),
+        url("./Fonts/AnyConv.com__Montserrat-BoldItalic.woff2") format("woff2");
+    font-weight: italic;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "montExtraBold";
+    src: url("./Fonts/Montserrat-ExtraBold.ttf") format("truetype"),
+        url("./Fonts/AnyConv.com__Montserrat-ExtraBold.woff") format("woff"),
+        url("./Fonts/AnyConv.com__Montserrat-ExtraBold.woff2") format("woff2");
+    font-weight: italic;
+    font-style: italic;
+}
+
+.head {
+    position: relative;
+    text-align: center;
+}
+
+.textHeader {
+    font-family: 'justHand';
+    font-size: 133px;
+    color: #ea5760;
+    text-align: center;
+}
+
+.imgHead {
+    position: absolute;
+    width: 250px;
+    top: -35px;
+    left: -65px;
+}
+
+.textContent,
+.textMainContent {
+    font-family: 'mont';
+    font-size: 30px;
+    color: #45403d;
+    line-height: 55px;
+}
+
+.imgHeader {
+    margin: 0;
+    padding-top: 150px;
+}
+
+.logoWhite {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    right: 15px;
+    bottom: 15px;
+    z-index: 1;
+}
+
+.area,
+.areaPhuNhuan {
+    position: relative;
+    width: 545px;
+}
+
+.district,
+.districtPhuNhuan {
+    font-family: 'montBold';
+    color: #ea5760;
+    font-size: 115px;
+}
+
+.areaPhuNhuan {
+    width: 100%;
+}
+
+.districtPhuNhuan {
+    font-size: 85px;
+}
+
+.lineDistrictPhuNhuan {
+    top: -20px;
+    right: -10px;
+    width: 30px;
+}
+
+.lineDistrictTwoPhuNhuan {
+    top: 70px;
+    left: -55px;
+    width: 75px;
+}
+
+.lineDistrict,
+.lineDistrictTwo,
+.lineDistrictPhuNhuan,
+.lineDistrictTwoPhuNhuan {
+    position: absolute;
+}
+
+.lineDistrict {
+    top: -20px;
+    left: 495px;
+    width: 30px;
+}
+
+.lineDistrictTwo {
+    top: 100px;
+    left: -55px;
+    width: 75px;
+}
+
+.textHead,
+.textFoot {
+    font-family: 'justHand';
+    color: #ea5760;
+    font-size: 75px;
+}
+
+.lineHead,
+.lineHeadToDo {
+    width: 60px;
+    margin-left: 170px;
+    margin-top: -100px;
+}
+
+.line {
+    margin: 0;
+}
+
+.textLocation {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr;
+}
+
+.textMainContent {
+    font-size: 25px;
+    line-height: 35px;
+    padding-right: 75px;
+}
+
+.imgContent {
+    margin-right: 0;
+}
+
+.Location {
+    font-family: 'montBoldItalic';
+    color: #ea5760;
+    font-size: 40px;
+    margin-bottom: 0;
+    margin-top: 100px;
+}
+
+.textWeb {
+    font-family: 'montMedium';
+    font-size: 20px;
+    margin: 0;
+    height: 20px;
+}
+
+.lineHeadToDo {
+    margin-left: 100px;
+    width: 100px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.textFoot {
+    font-size: 100px;
+}
+
+.lineFooter {
+    width: 460px;
+    margin-top: -129px;
+    margin-left: 10px;
+}
+
+.imgFooter {
+    width: 150px;
+    margin-top: 100px;
+}
+
+.lineFooterTow {
+    width: 300px;
+    margin-top: 0px;
+    margin-left: 145px;
+}
+
+@media screen and (max-width:997px) {
+    .container {
+        padding: 0 30px;
+    }
+
+    .textHeader {
+        font-size: 80px;
+        height: 100px;
+        width: 550px;
+    }
+
+    .imgHead {
+        width: 160px;
+        top: -30px;
+        left: -50px;
+    }
+
+    .textContent,
+    .textMainContent {
+        font-size: 19px;
+        line-height: 40px;
+    }
+
+    .imgHeader {
+        margin: 0;
+        padding-top: 100px;
+    }
+
+    .logoWhite {
+        width: 40px;
+        height: 40px;
+        right: 15px;
+        bottom: 15px;
+    }
+
+    .area,
+    .areaPhuNhuan {
+        width: 545px;
+    }
+
+    .district,
+    .districtPhuNhuan {
+        font-size: 80px;
+    }
+
+    .areaPhuNhuan {
+        width: 100%;
+    }
+
+    .districtPhuNhuan {
+        font-size: 50px;
+    }
+
+    .lineDistrictPhuNhuan {
+        top: -25px;
+        left: 455px;
+        width: 20px;
+    }
+
+    .lineDistrictTwoPhuNhuan {
+        top: 25px;
+        left: -50px;
+        width: 40px;
+    }
+
+    .lineDistrict {
+        top: -20px;
+        left: 330px;
+        width: 20px;
+    }
+
+    .lineDistrictTwo {
+        top: 55px;
+        left: -55px;
+        width: 50px;
+    }
+
+    .textHead,
+    .textFoot {
+        font-size: 60px;
+    }
+
+    .lineHead,
+    .lineHeadToDo {
+        width: 50px;
+        margin-left: 135px;
+        margin-top: -80px;
+    }
+
+    .line {
+        margin: 0;
+    }
+
+    .textMainContent {
+        font-size: 19px;
+        line-height: 35px;
+        padding-right: 0px;
+    }
+
+    .imgContent {
+        margin-right: 0;
+    }
+
+    .Location {
+        font-size: 25px;
+        margin-top: 50px;
+    }
+
+    .textWeb {
+        font-size: 15px;
+    }
+
+    .lineHeadToDo {
+        margin-left: 85px;
+        width: 70px;
+    }
+
+    .textFoot {
+        font-size: 75px;
+    }
+
+    .lineFooter {
+        width: 345px;
+        margin-top: -100px;
+    }
+
+    .imgFooter {
+        width: 150px;
+        margin-top: 100px;
+    }
+
+    .lineFooterTow {
+        width: 200px;
+        margin-left: 115px;
+    }
+
+}
+
+@media screen and (max-width:615px) {
+    .container {
+        padding: 0 10px;
+    }
+
+    .textHeader {
+        font-size: 40px;
+        height: 30px;
+        width: 300px;
+    }
+
+    .imgHead {
+        width: 85px;
+    top: -25px;
+    left: -40px;
+    }
+
+    .textContent,
+    .textMainContent {
+        font-size: 10px;
+        line-height: 20px;
+    }
+
+    .imgHeader {
+        padding-top: 70px;
+    }
+
+    .logoWhite {
+        width: 30px;
+        height: 30px;
+        right: 15px;
+        bottom: 15px;
+    }
+
+    .area,
+    .areaPhuNhuan {
+        width: 300px;
+    }
+
+    .district,
+    .districtPhuNhuan {
+        font-size: 30px;
+        width: 300px;
+    }
+
+    .areaPhuNhuan {
+        width: 100%;
+    }
+
+    .districtPhuNhuan {
+        font-size: 25px;
+    }
+
+    .lineDistrictPhuNhuan {
+        top: -25px;
+        left: 210px;
+        width: 10px;
+    }
+
+    .lineDistrictTwoPhuNhuan {
+        top: 5px;
+        left: -50px;
+        width: 25px;
+    }
+
+    .lineDistrict {
+        top: -20px;
+        left: 100px;
+        width: 10px;
+    }
+
+    .lineDistrictTwo {
+        top: 10px;
+        left: -55px;
+        width: 30px;
+    }
+
+    .textHead,
+    .textFoot {
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .lineHead,
+    .lineHeadToDo {
+        width: 20px;
+        margin-left: 70px;
+        margin-top: -15px;
+    }
+
+    .line {
+        margin: 0;
+    }
+
+    .textMainContent {
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    .imgContent {
+        margin-right: 0;
+    }
+
+    .Location {
+        font-size: 13px;
+    }
+
+    .textWeb {
+        font-size: 9px;
+    }
+
+    .lineHeadToDo {
+        margin-left: 50px;
+        margin-top: -15px;
+        width: 30px;
+    }
+
+    .textFoot {
+        font-size: 30px;
+    }
+
+    .lineFooter {
+        width: 130px;
+        margin-top: -20px;
+    }
+
+    .imgFooter {
+        margin-top: 5px;
+    }
+
+    .lineFooterTow {
+        width: 100px;
+        margin-left: 65px;
+    }
+
+}
