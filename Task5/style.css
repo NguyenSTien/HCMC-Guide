@@ -87,8 +87,9 @@ img {
 .imgHead {
     position: absolute;
     width: 250px;
-    top: -35px;
-    left: -65px;
+    top: -20px;
+    left: -20px;
+    margin: 0;
 }
 
 .textContent,
@@ -116,7 +117,7 @@ img {
 .area,
 .areaPhuNhuan {
     position: relative;
-    width: 545px;
+    /* width: 545px; */
 }
 
 .district,
@@ -207,11 +208,16 @@ img {
     margin-top: 100px;
 }
 
+.lineWeb {
+    display: grid;
+    align-items: center;
+}
+
 .textWeb {
     font-family: 'montMedium';
     font-size: 20px;
-    margin: 0;
-    height: 20px;
+    margin-top: 0px;
+    margin-bottom: -10px;
 }
 
 .lineHeadToDo {
@@ -241,9 +247,9 @@ img {
 }
 
 .lineFooterTow {
-    width: 300px;
-    margin-top: 0px;
-    margin-left: 145px;
+    width: 200px;
+    margin-top: -165px;
+    margin-left: 135px;
 }
 
 @media screen and (max-width:997px) {
@@ -259,8 +265,8 @@ img {
 
     .imgHead {
         width: 160px;
-        top: -30px;
-        left: -50px;
+        top: -15px;
+        left: -10px;
     }
 
     .textContent,
@@ -270,29 +276,19 @@ img {
     }
 
     .imgHeader {
-        margin: 0;
         padding-top: 100px;
     }
 
     .logoWhite {
         width: 40px;
         height: 40px;
-        right: 15px;
-        bottom: 15px;
-    }
-
-    .area,
-    .areaPhuNhuan {
-        width: 545px;
+        right: 0px;
+        bottom: 0px;
     }
 
     .district,
     .districtPhuNhuan {
         font-size: 80px;
-    }
-
-    .areaPhuNhuan {
-        width: 100%;
     }
 
     .districtPhuNhuan {
@@ -326,6 +322,7 @@ img {
     .textHead,
     .textFoot {
         font-size: 60px;
+        margin-top: 90px;
     }
 
     .lineHead,
@@ -335,18 +332,10 @@ img {
         margin-top: -80px;
     }
 
-    .line {
-        margin: 0;
-    }
-
     .textMainContent {
         font-size: 19px;
         line-height: 35px;
         padding-right: 0px;
-    }
-
-    .imgContent {
-        margin-right: 0;
     }
 
     .Location {
@@ -356,6 +345,7 @@ img {
 
     .textWeb {
         font-size: 15px;
+        height: 20px;
     }
 
     .lineHeadToDo {
@@ -378,8 +368,9 @@ img {
     }
 
     .lineFooterTow {
-        width: 200px;
-        margin-left: 115px;
+        width: 150px;
+        margin-top: -165px;
+        margin-left: 105px;
     }
 
 }
@@ -397,8 +388,8 @@ img {
 
     .imgHead {
         width: 85px;
-    top: -25px;
-    left: -40px;
+        top: -10px;
+        left: 5px;
     }
 
     .textContent,
@@ -412,25 +403,14 @@ img {
     }
 
     .logoWhite {
-        width: 30px;
-        height: 30px;
-        right: 15px;
-        bottom: 15px;
-    }
-
-    .area,
-    .areaPhuNhuan {
-        width: 300px;
+        width: 25px;
+        height: 25px;
+        right: -20px;
     }
 
     .district,
     .districtPhuNhuan {
         font-size: 30px;
-        width: 300px;
-    }
-
-    .areaPhuNhuan {
-        width: 100%;
     }
 
     .districtPhuNhuan {
@@ -464,18 +444,14 @@ img {
     .textHead,
     .textFoot {
         font-size: 30px;
-        margin: 0;
+        margin-top: 40px;
     }
 
     .lineHead,
     .lineHeadToDo {
         width: 20px;
         margin-left: 70px;
-        margin-top: -15px;
-    }
-
-    .line {
-        margin: 0;
+        margin-top: -45px;
     }
 
     .textMainContent {
@@ -483,40 +459,40 @@ img {
         line-height: 15px;
     }
 
-    .imgContent {
-        margin-right: 0;
-    }
-
     .Location {
         font-size: 13px;
+        margin-top: 30px;
     }
 
     .textWeb {
-        font-size: 9px;
+        font-size: 8px;
+        margin-top: -3px;
+        margin-bottom: -23px;
     }
 
     .lineHeadToDo {
         margin-left: 50px;
-        margin-top: -15px;
+        margin-top: -45px;
         width: 30px;
     }
 
     .textFoot {
-        font-size: 30px;
+        font-size: 35px;
     }
 
     .lineFooter {
-        width: 130px;
-        margin-top: -20px;
+        width: 155px;
+        margin-top: -50px;
     }
 
     .imgFooter {
-        margin-top: 5px;
+        margin: 0;
+        padding: 10px;
     }
 
     .lineFooterTow {
-        width: 100px;
-        margin-left: 65px;
+        width: 80px;
+        margin-top: -80px;
+        margin-left: 55px;
     }
-
 }
